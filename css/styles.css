@@ -7,14 +7,14 @@
 }
 
 #animate{
-  font-size: 50px;
+  font-size: 60px;
   text-align: center;
   line-height: 200px;
-}
+ }
 
 #pseudo, #jsEvent{
-  background-color: salmon;
-  color: pink;
+  background-color: red;
+  color: blue;
   font-size: 50px;
   text-align: center;
   line-height: 200px;
@@ -25,3 +25,23 @@ h3{
   text-align: center;
 }
 
+#rotate {
+  -ms-transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  transform: rotate(20deg);}
+}
+
+#skew {
+  -ms-transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+  transform: skewX(20deg);
+}
+
+#all {
+  transform: matrix(1, 2, -1, 40, 40);
+  background-color: pink;
+}
+
+#pseudo:hover {
+  color: #FF00FF;
+}
